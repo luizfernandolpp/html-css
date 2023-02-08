@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito linguagem Javascript. (tag code) </p> 
+    <h2>Combinando as tags pre e code</h2>
+    <pre>
+        <code>
+num = int(input('Digite um número'))
+if num % 2 == 0:
+    print(f'{num} é par')
+else:
+    print(f'{num} é ímpar')
+        </code>
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q>. (tag semântica q - quote) </p> 
+    <h2>Citações completas (tag blockquote e citação semântica)</h2>
+    <p>According to the physicist John A. Wheeler:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/Gravitation/SyQzDwAAQBAJ?hl=pt-BR&gbpv=0">Mass-energy tells spacetime how to curve. Curved spacetime tells mass-energy how to move.</blockquote> <!-- Citação semântica-->
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hypertext Markup Language">HTML5</abbr> e <abbr title="Cascading Style Sheets">CSS3</abbr>. Estou adorando! (abreviações com a tag semântica abbr.</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">socorram me subi no onibus em marrocos</bdo> (tag bdo com atributo dir ="rlt" ou dir="ltr")</p>
+</body>
+</html>
