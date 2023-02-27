@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe{
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Exibindo páginas em um iframe através de links locais -->
+    <h1>Faça uma escolha</h1>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam odit laboriosam ullam pariatur voluptatum nisi nemo libero qui delectus nesciunt dolore, at voluptate excepturi ex officia laborum commodi amet sapiente!</p>
+
+    <ul>
+        <li><a href="../ex022 - tabelas/exec-tabela.html" target="frame">Primeira página</a></li>
+        <li><a href="../ex022 - tabelas/tabela006.html" target="frame">Segunda página</a></li>
+        <li><a href="../ex022 - tabelas/tabela005.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fugiat commodi provident ab quam, nobis maxime tenetur laboriosam soluta quaerat, maiores culpa quibusdam suscipit quos praesentium odit repudiandae facere beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nisi maxime quo eum nam sapiente voluptate quam officia, facere totam officiis. Veritatis eius alias nostrum dignissimos eos incidunt enim quibusdam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. In at pariatur necessitatibus, libero explicabo quam optio nemo, eligendi praesentium, nesciunt voluptas obcaecati eos minima molestiae labore repudiandae tenetur ducimus iste?</p>
+
+    <iframe srcdoc="<h1> Clique em um dos links acima</h1>" frameborder="0" name="frame">
+        <p>Infelizmente seu navegador não é compatível.</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque facere corrupti voluptate! Id minus vel corrupti quisquam, rem suscipit ullam ut! Veniam error dignissimos sint natus, adipisci libero fugit distinctio. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa vel consequatur voluptates iste itaque accusamus harum quidem, debitis eaque. Repellendus, possimus. Distinctio aspernatur ad obcaecati corporis fugiat veritatis eius atque.</p>
+</body>
+</html>
