@@ -11,3 +11,55 @@ html{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
+
+header{
+    background-color: gray;
+}
+
+header > h1{
+    text-align: center;
+}
+
+menu > ul{
+    background-color: darkgray;
+    
+}
+
+ul > li{
+    display: inline-block;
+    
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(128, 128, 128, 0.692);
+    color: white;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+article{
+    width: 450px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: justify;
+
+    background-color: rgb(224, 224, 224);
+    border-radius: 10px;
+}
+
+article > h2{
+    text-align: center;
+    padding: 10px;
+}
+
+article > p{
+    text-indent: 10px;
+    padding: 10px;
+}
