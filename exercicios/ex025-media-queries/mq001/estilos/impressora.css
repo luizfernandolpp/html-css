@@ -8,15 +8,22 @@
 }
 
 html{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, serif;
     font-size: 1.5em;
     line-height: 1.5em;
+    
+}
+
+body{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+h1, h2{
+    text-align: center;
 }
 
 menu{
     display: none;
 }
 
-article ::after{
-    content: 'Este artigo foi impresso através do site www.sujirokimimame.com';
-}
